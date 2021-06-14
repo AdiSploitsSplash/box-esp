@@ -1,4 +1,4 @@
-box.MouseButton1Down:connect(function()
+
 	local lplr = game.Players.LocalPlayer
 	local camera = game:GetService("Workspace").CurrentCamera
 	local CurrentCamera = workspace.CurrentCamera
@@ -307,4 +307,4 @@ box.MouseButton1Down:connect(function()
 		end
 		coroutine.wrap(boxesp)()
 	end)
-end)
+
